@@ -1,4 +1,5 @@
 @echo off
+rem 先打开Bluckstacks5再运行该脚本，如果无法联网尝试重启一下模拟器
 rem 获取电脑本机IP
 for /f "tokens=16" %%i in ('ipconfig ^|find /i "ipv4"') do set ip=%%i
 
